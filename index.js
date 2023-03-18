@@ -183,7 +183,6 @@ function random() {
       if (randomCoutriesId === id) {
         console.warn("DA");
         document.getElementById(id).style.fill = "#1FAB89";
-        //    window.location.reload();
       } else {
         console.warn("NU");
         document.getElementById(id).style.fill = "#E23E57";
@@ -192,11 +191,3 @@ function random() {
   });
 }
 random();
-
-// window.location.reload();
-
-// function verifyCoutry() {
-
-// }
-
-// verifyCoutry();
